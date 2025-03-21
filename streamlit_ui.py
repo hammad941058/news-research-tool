@@ -1,6 +1,6 @@
 import streamlit as st
 from news_fetcher import fetch_news
-from text_analysis import summarize_text
+from .text_analysis import summarize_text
 
 st.title("📰 News Research Tool")
 
